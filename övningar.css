@@ -1,0 +1,33 @@
+/* menyn ska vara centrerad med jämnt mellanrum mellan alla element */
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  margin: 50px;
+}
+
+/* raden med bilder ska hamna längst ner i article */
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  justify-items: flex-end;
+}
+
+/* boxarna med text ska hamna längst ut åt vardera sida */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* dom små boxarna med ljusare färg ska vara samma storlek medans den stora boxen ska vara dubbla storleken.
+alla boxar tillsammans ska täcka hela sidan */
+.small {
+  flex: 1;
+}
+
+.large {
+  flex: 2 0;
+}
